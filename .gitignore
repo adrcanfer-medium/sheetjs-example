@@ -4,3 +4,4 @@ node_modules
 .browserslistrc
 .editorconfig
 src/assets/.gitkeep
+package-lock.json
