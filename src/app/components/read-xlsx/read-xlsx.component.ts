@@ -31,7 +31,6 @@ export class ReadXlsxComponent implements OnInit {
       const wb: XLSX.WorkBook = XLSX.read(binarystr, { type: 'binary' });
 
       /* Recorremos los nombres de las hojas */
-
       wb.SheetNames.forEach((sheetName: string) => {
         console.log(`Sheet name: ${sheetName}`);
 
